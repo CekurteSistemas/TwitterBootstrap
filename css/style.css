@@ -21,3 +21,7 @@ footer {
   border-top: 1px solid #eee;
   padding-top: 25px;
 }
+
+table th.action {
+    width: 144px;
+}

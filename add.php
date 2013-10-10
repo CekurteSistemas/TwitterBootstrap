@@ -28,9 +28,10 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span> Sobre</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Módulo <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-pushpin"></span> Estabelecimentos <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>
@@ -50,13 +51,7 @@
       <h2 class="pull-left">Contato <small>Adicionar</small></h2>
       <div class="btn-group pull-right">
         <a href="#" class="btn btn-default">
-          <span class="glyphicon glyphicon-list"></span> Star
-        </a>
-        <a href="#" class="btn btn-default">
-          <span class="glyphicon glyphicon-list"></span> Star
-        </a>
-        <a href="#" class="btn btn-default">
-          <span class="glyphicon glyphicon-list"></span> Star
+          <span class="glyphicon glyphicon-list"></span> Listar
         </a>
       </div>
     </div>
@@ -90,7 +85,7 @@
         </div>
         <div class="form-group">
           <div class="col-lg-offset-2 col-lg-10">
-            <button type="submit" class="btn btn-default">Sign in</button>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-floppy-disk"></span> Salvar</button>
           </div>
         </div>
       </form>
